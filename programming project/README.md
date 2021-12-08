@@ -82,8 +82,11 @@ A log file (sys.log) has been provided to keep track of the app as it runs.
 ## Details
 ***
 Author: Destyny Ho
+
 License: MIT Licence
+
 Link to documentation source: docs/build/html/index.html
+
 Acknowledgements:
 * newsapi 
 * uk_covid19
