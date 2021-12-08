@@ -1,0 +1,32 @@
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+root - INFO - Infection rates fetched.
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22areaCode%22%3A%22areaCode%22%2C%22areaName%22%3A%22areaName%22%2C%22areaType%22%3A%22areaType%22%2C%22date%22%3A%22date%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%2C%22newCasesBySpecimenDate%22%3A%22newCasesBySpecimenDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+root - INFO - National infection rates, hospital cases and deaths fetched.
+urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): newsapi.org:443
+urllib3.connectionpool - DEBUG - https://newsapi.org:443 "GET /v2/everything?q=Covid+COVID-19+coronavirus&from=2021-12-06&to=2021-12-08&language=en&page=2 HTTP/1.1" 200 None
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
+root - INFO - News fetched from News API.
