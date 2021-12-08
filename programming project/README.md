@@ -82,7 +82,7 @@ A log file (sys.log) has been provided to keep track of the app as it runs.
 ## Details
 ***
 Author: Destyny Ho
-License: Please do not redistribute or sell this interface.
+License: MIT Licence
 Link to documentation source: docs/build/html/index.html
 Acknowledgements:
 * newsapi 
