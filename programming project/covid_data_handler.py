@@ -58,8 +58,16 @@ def process_covid_csv_data(covid_csv_data):
     last7days_cases = 0
     current_hospital_cases = 0
     total_deaths = 0
-    for i in range(2, 9):
-        last7days_cases = last7days_cases + int(float(covid_csv_data[i]['newCasesBySpecimenDate']))
+    for i in range(len(covid_csv_data)-1):
+        while covid_csv_data[i]['newCasesBySpecimenDate'] == '':
+            i += 1
+            if covid_csv_data[i]['newCasesBySpecimenDate'] != '':
+                break
+        i += 1
+        for temp in range(7):
+            last7days_cases = last7days_cases + int(float(covid_csv_data[i]['newCasesBySpecimenDate']))
+            i += 1
+        break
     for j in range(len(covid_csv_data)-1):
         while covid_csv_data[j]['hospitalCases'] == '':
             j += 1
